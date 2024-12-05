@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم کارت به کارت</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="transfer-form">
+        <h2>فرم کارت به کارت</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="source-card">شماره کارت مبدا:</label>
+                <input type="text" id="source-card" name="source-card" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="19" required>
+            </div>
+            <div class="form-group">
+                <label for="destination-card">شماره کارت مقصد:</label>
+                <input type="text" id="destination-card" name="destination-card" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="19" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">مبلغ (تومان):</label>
+                <input type="number" id="amount" name="amount" placeholder="مبلغ را وارد کنید" required>
+            </div>
+            <button type="submit">انتقال</button>
+        </form>
+    </div>
+</body>
+</html>
